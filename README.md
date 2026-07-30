@@ -19,6 +19,13 @@
 3. Call `StartRewindMovement()` (e.g., on keypress or skill trigger) to replay historical positions backward frame-by-frame.
 4. Call `StopRewindMovement()` to return to normal gameplay.
 ```cpp
+--- Test Actor Example come with the plugin 
+<img width="478" height="204" alt="w1" src="https://github.com/user-attachments/assets/de9ba61b-ae5f-4b55-af0a-b9f580cfcf96" />
+
+simple blueprint code within the Actor 
+<img width="1917" height="937" alt="w2" src="https://github.com/user-attachments/assets/f4b1409b-7565-45f7-a278-e7a4c0fb5d61" />
+
+
 // C++ Execution Example:
 RewindComponent->StartRewindMovement();
 
@@ -27,8 +34,4 @@ Module Type: Runtime
 Primary Component: URewindTimeComponent
 Supported Platforms: Win64, Mac, Linux, iOS, Android, Consoles
 
-Test Actor Example come with the plugin 
-<img width="478" height="204" alt="w1" src="https://github.com/user-attachments/assets/de9ba61b-ae5f-4b55-af0a-b9f580cfcf96" />
 
-simple blueprint code within the Actor 
-<img width="1917" height="937" alt="w2" src="https://github.com/user-attachments/assets/f4b1409b-7565-45f7-a278-e7a4c0fb5d61" />
